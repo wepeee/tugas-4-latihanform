@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <form action="">
+        <div class="form">
+          <h1>Selamat Datang.</h1>
+          <p>Isilah form dibawah ini !</p>
+        </div>
+
+        <div class="form">
+          <label for="nama">Nama</label><br />
+          <input placeholder="your name" type="text" autofocus />
+        </div>
+
+        <div class="form">
+          <label for="nrp">nrp</label><br />
+          <input placeholder="nrp" type="text" />
+        </div>
+
+        <div class="form">
+          <label for="email">email</label><br />
+          <input placeholder="email" type="email" />
+        </div>
+
+        <div class="form">
+          <label for="gender">gender</label><br />
+          <div class="form-radio">
+            <input type="radio" name="gender" value="male" />
+            <label for="gender">male</label><br />
+            <input type="radio" name="gender" value="female" />
+            <label for="gender">female</label><br />
+          </div>
+        </div>
+
+        <div class="form">
+          <label for="angkatan">angkatan</label><br />
+          <select name="angkatan" id="angkatan">
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+          </select>
+        </div>
+
+        <div class="form">
+          <label for="date">tanggal lahir</label><br />
+          <input type="date" />
+        </div>
+
+        <button type="button"><a href="submit.html">Submit</a></button>
+      </form>
+    </section>
+    <footer></footer>
+  </body>
+</html>
